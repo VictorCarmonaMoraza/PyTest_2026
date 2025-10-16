@@ -1,14 +1,14 @@
-def test_prueba_1():
-    pass
+import pytest
 
+@pytest.mark.prueba
+class TestDePrueba:
+    def test_primero(self):
+        assert True
 
-def test_prueba_2():
-    pass
+    def test_segundo(self):
+        assert True
 
-
-def test_prueba_3():
-    pass
-
-
-def test_loquesea():
-    assert False
+@pytest.mark.prueba
+@pytest.mark.magia
+def test_tercero(self):
+    assert True

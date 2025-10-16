@@ -1,12 +1,10 @@
 from mi_proyecto.main import sumar
 
 
-def test_sumar():
-    assert sumar(1, 1) == 2
+class TestCalculadora:
 
-# def test_sumar_falla():
-#     assert  sumar(1,2) == 4
+    def test_sumar(self):
+        assert sumar(1, 1) == 2
 
-
-def helado_prueba():
-    assert False
+    def test_sumar_falla(self):
+        assert sumar(1, 2) == 3

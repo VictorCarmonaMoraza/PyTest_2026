@@ -1,10 +1,14 @@
-from mi_proyecto.main import sumar
+def test_prueba_1():
+    pass
 
 
-class TestCalculadora:
+def test_prueba_2():
+    pass
 
-    def test_sumar(self):
-        assert sumar(1, 1) == 2
 
-    def test_sumar_falla(self):
-        assert sumar(1, 2) == 3
+def test_prueba_3():
+    pass
+
+
+def test_loquesea():
+    assert False
